@@ -129,7 +129,7 @@ $(document).ready(function() {
 
 
 
-
+<!-- prueba git  -->
 
 <link rel="stylesheet"
 	href="<c:url  value="/static/css/styles.css"/>" media="all">
