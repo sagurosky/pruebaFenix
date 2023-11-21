@@ -317,6 +317,8 @@ $(document).ready(function() {
    	rs = null;
    	String call="";
    	
+   	//prueba git
+   	
    		//System.out.println("1");
 		if(ciclo==null || ciclo.equals("0")){
 			call = "SELECT * FROM perfil_alumno,persona, estado_alumno,escuela,zona_cimientos,entrevista, ciclo_programa, periodo, evaluacion_renovacion_final, situacion_escolar, localidad, provincia, perfilrr, perfilea where perfil_alumno.id=persona.perfil_alumno and perfil_alumno.estado_alumno=estado_alumno.id_estado and perfil_alumno.escuela=escuela.id and escuela.zona_cimientos_id=zona_cimientos.id and entrevista.perfil_alumno=perfil_alumno.id and entrevista.periodo_de_pago=375 and entrevista.evaluacion_renovacion_final=3 and periodo.id=entrevista.periodo_de_pago and ciclo_programa.id=periodo.ciclo_id and evaluacion_renovacion_final.codigo=entrevista.evaluacion_renovacion_final and  situacion_escolar.codigo=entrevista.situacion_escolar_mergeada and ciclo_programa.id=0";	
