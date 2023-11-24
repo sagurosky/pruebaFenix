@@ -130,7 +130,6 @@ $(document).ready(function() {
 
 
 
-<!-- prueba git -->
 
 <link rel="stylesheet"
 	href="<c:url  value="/static/css/styles.css"/>" media="all">
@@ -227,7 +226,25 @@ $(document).ready(function() {
 	<br><br>
 <table id="tContabilidad" class="display" cellspacing="0" width="100%">
 	<thead>
-		<tr>								
+		<tr>	
+		
+		
+<!-- 		
+Ciclo (que se puedan marcar varios), 
+Estudiante, 
+DNI,
+Escuela,
+Localidad, 
+Provincia, 
+Zona Cimientos, 
+EA,
+RR,
+Padrino, 
+situación escolar,
+estado pago
+    
+     -->
+									
 			<th>Id</th>
          	<th>BECADO</th>
 			<th>DNI</th>
@@ -238,26 +255,26 @@ $(document).ready(function() {
 			
 			<th>ESCUELA</th>			
 			<th>SITUACION<br>ESCOLAR</th>
-			<th>ESTADO ACTUAL</th>
-			<th>ULTIMA<br>ACTUALIZACION</th>
-			<th>BOLETIN</th>
+<!-- 			<th>ESTADO ACTUAL</th> -->
+<!-- 			<th>ULTIMA<br>ACTUALIZACION</th> -->
+<!-- 			<th>BOLETIN</th> -->
 			<th>ESTADO<br>PAGO</th>
-			<th>PERIODO<br>EGRESO</th>
-			<th>MAT.<br>APROBADAS</th>
-			<th>MAT.<br>DESAPROBADAS</th>
-			<th>MATERIAS<br>NO SE PRESENTO</th>
-			<th>MATERIAS<br>NO HUBO MESA</th>
-			<th>MATERIAS<br>QUE ADEUDA</th>
-			<th>NOMBRE MATERIA<br>QUE ADEUDA</th>
-			<th>ENCUENTRO<br>INDIVIDUAL</th>
-			<th>ENDUENTRO<br>GRUPAL</th>
-			<th>ENCUENTRO<br>DUPLA</th>
-			<th>CONTACTO<br>TELEFONICO</th>
-			<th>OTRO<br>ENCUENTRO</th>
-			<th>DESCRIPCION<br>Y EVALUACION</th>
-			<th>CLASES DE<br>APOYO ESCOLAR</th>
-			<th>PLAN DE<br>ACCION</th>
-			<th>OBSERVACIONES<br>OFICINA</th>
+<!-- 			<th>PERIODO<br>EGRESO</th> -->
+<!-- 			<th>MAT.<br>APROBADAS</th> -->
+<!-- 			<th>MAT.<br>DESAPROBADAS</th> -->
+<!-- 			<th>MATERIAS<br>NO SE PRESENTO</th> -->
+<!-- 			<th>MATERIAS<br>NO HUBO MESA</th> -->
+<!-- 			<th>MATERIAS<br>QUE ADEUDA</th> -->
+<!-- 			<th>NOMBRE MATERIA<br>QUE ADEUDA</th> -->
+<!-- 			<th>ENCUENTRO<br>INDIVIDUAL</th> -->
+<!-- 			<th>ENDUENTRO<br>GRUPAL</th> -->
+<!-- 			<th>ENCUENTRO<br>DUPLA</th> -->
+<!-- 			<th>CONTACTO<br>TELEFONICO</th> -->
+<!-- 			<th>OTRO<br>ENCUENTRO</th> -->
+<!-- 			<th>DESCRIPCION<br>Y EVALUACION</th> -->
+<!-- 			<th>CLASES DE<br>APOYO ESCOLAR</th> -->
+<!-- 			<th>PLAN DE<br>ACCION</th> -->
+<!-- 			<th>OBSERVACIONES<br>OFICINA</th> -->
 			<th>EA</th>
 			<th>RR</th>
 			<th>PADRINO</th>
@@ -276,26 +293,26 @@ $(document).ready(function() {
 			
 			<th>ESCUELA</th>			
 			<th>SITUACION<br>ESCOLAR</th>
-			<th>ESTADO ACTUAL</th>
-			<th>ULTIMA<br>ACTUALIZACION</th>
-			<th>BOLETIN</th>
+<!-- 			<th>ESTADO ACTUAL</th> -->
+<!-- 			<th>ULTIMA<br>ACTUALIZACION</th> -->
+<!-- 			<th>BOLETIN</th> -->
 			<th>ESTADO<br>PAGO</th>
-			<th>PERIODO<br>EGRESO</th>
-			<th>MAT.<br>APROBADAS</th>
-			<th>MAT.<br>DESAPROBADAS</th>
-			<th>MATERIAS<br>NO SE PRESENTO</th>
-			<th>MATERIAS<br>NO HUBO MESA</th>
-			<th>MATERIAS<br>QUE ADEUDA</th>
-			<th>NOMBRE MATERIA<br>QUE ADEUDA</th>
-			<th>ENCUENTRO<br>INDIVIDUAL</th>
-			<th>ENDUENTRO<br>GRUPAL</th>
-			<th>ENCUENTRO<br>DUPLA</th>
-			<th>CONTACTO<br>TELEFONICO</th>
-			<th>OTRO<br>ENCUENTRO</th>
-			<th>DESCRIPCION<br>Y EVALUACION</th>
-			<th>CLASES DE<br>APOYO ESCOLAR</th>
-			<th>PLAN DE<br>ACCION</th>
-			<th>OBSERVACIONES<br>OFICINA</th>
+<!-- 			<th>PERIODO<br>EGRESO</th> -->
+<!-- 			<th>MAT.<br>APROBADAS</th> -->
+<!-- 			<th>MAT.<br>DESAPROBADAS</th> -->
+<!-- 			<th>MATERIAS<br>NO SE PRESENTO</th> -->
+<!-- 			<th>MATERIAS<br>NO HUBO MESA</th> -->
+<!-- 			<th>MATERIAS<br>QUE ADEUDA</th> -->
+<!-- 			<th>NOMBRE MATERIA<br>QUE ADEUDA</th> -->
+<!-- 			<th>ENCUENTRO<br>INDIVIDUAL</th> -->
+<!-- 			<th>ENDUENTRO<br>GRUPAL</th> -->
+<!-- 			<th>ENCUENTRO<br>DUPLA</th> -->
+<!-- 			<th>CONTACTO<br>TELEFONICO</th> -->
+<!-- 			<th>OTRO<br>ENCUENTRO</th> -->
+<!-- 			<th>DESCRIPCION<br>Y EVALUACION</th> -->
+<!-- 			<th>CLASES DE<br>APOYO ESCOLAR</th> -->
+<!-- 			<th>PLAN DE<br>ACCION</th> -->
+<!-- 			<th>OBSERVACIONES<br>OFICINA</th> -->
 			<th>EA</th>
 			<th>RR</th>
 			<th>PADRINO</th>
@@ -374,15 +391,15 @@ $(document).ready(function() {
     	<td><%= rs.getString("escuela.nombre") %></td>
     	
     	<td><%= rs.getString("situacion_escolar.nombre") %></td>
-		<td><%= situacionEscolarPA %></td>
-		<td>
-			<% if(rs.getString("ultima_actualizacion")!=null){%>
-				<%=rs.getString("ultima_actualizacion").substring(0,10) %>
-				</td>
-			<%}else{%>
-					</td>
-			<%}%>
-    	<td><a href="<%=archivo%>" target="_blank"><img src="<%=archivo%>" width="50"></a></td>
+<%-- 		<td><%= situacionEscolarPA %></td> --%>
+<!-- 		<td> -->
+<%-- 			<% if(rs.getString("ultima_actualizacion")!=null){%> --%>
+<%-- 				<%=rs.getString("ultima_actualizacion").substring(0,10) %> --%>
+<!-- 				</td> -->
+<%-- 			<%}else{%> --%>
+<!-- 					</td> -->
+<%-- 			<%}%> --%>
+<%--     	<td><a href="<%=archivo%>" target="_blank"><img src="<%=archivo%>" width="50"></a></td> --%>
 		<% if(rs.getString("aprobar_pago")==null && rs.getString("revertir_pago")==null){%>
 			<td></td>
 		<%}else{%>			
@@ -395,62 +412,66 @@ $(document).ready(function() {
 				<% if(rs.getString("aprobar_pago").equals("no")){%>
 					<td></td>
 				<%}%>			
-		<%}%>			
+		<%}%>		
+		
+			
 		<%
-			String ok="";
-			Connection cn2 = null;
-			CallableStatement cl2 = null;
-			ResultSet rs2 = null;
-			cn2 = null;
-			cl2 = null;
-			rs2 = null;
-			String call2 ="SELECT * FROM post_pfe where idBecado="+rs.getString("perfil_alumno.id");
-			cn2 = Conexion.getConexion();
-			cl2 = cn2.prepareCall(call2); 
-			rs2 = cl2.executeQuery();
-			while (rs2.next()) {
-				ok="si";
-// 				System.out.println("perfil_alumno.id: " + rs.getString("perfil_alumno.id"));
-			%>
-				<td><%= rs2.getString("periodo") + " " +rs2.getString("ciclo")  %></td>
-				<td><%= rs2.getString("qma") %></td>
-				<td><%= rs2.getString("qmd") %></td>
-				<td><%= rs2.getString("qmqnsp") %></td>
-				<td><%= rs2.getString("qmqnhm") %></td>
-				<td><%= rs2.getString("qmqa") %></td>
-				<td><%= rs2.getString("materias_adeuda") %></td>
-				<td><%= rs2.getString("individual") %></td>
-				<td><%= rs2.getString("grupal") %></td>
-				<td><%= rs2.getString("dupla") %></td>
-				<td><%= rs2.getString("telefonico") %></td>
-				<td><%= rs2.getString("otro") %></td>
-				<td><%= rs2.getString("evaluacion") %></td>
-				<td><%= rs2.getString("apoyo_escolar") %></td>
-				<td><%= rs2.getString("plan_accion") %></td>
-				<td><%= rs2.getString("observaciones_oficina") %></td>
-			<%} 
-				if(ok.equals("")){								
-				%>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
+// 			String ok="";
+// 			Connection cn2 = null;
+// 			CallableStatement cl2 = null;
+// 			ResultSet rs2 = null;
+// 			cn2 = null;
+// 			cl2 = null;
+// 			rs2 = null;
+// 			String call2 ="SELECT * FROM post_pfe where idBecado="+rs.getString("perfil_alumno.id");
+// 			cn2 = Conexion.getConexion();
+// 			cl2 = cn2.prepareCall(call2); 
+// 			rs2 = cl2.executeQuery();
+// 			while (rs2.next()) {
+// 				ok="si";
+// // 				System.out.println("perfil_alumno.id: " + rs.getString("perfil_alumno.id"));
+ 			%> 
+<%-- 				<td><%= rs2.getString("periodo") + " " +rs2.getString("ciclo")  %></td> --%>
+<%-- 				<td><%= rs2.getString("qma") %></td> --%>
+<%-- 				<td><%= rs2.getString("qmd") %></td> --%>
+<%-- 				<td><%= rs2.getString("qmqnsp") %></td> --%>
+<%-- 				<td><%= rs2.getString("qmqnhm") %></td> --%>
+<%-- 				<td><%= rs2.getString("qmqa") %></td> --%>
+<%-- 				<td><%= rs2.getString("materias_adeuda") %></td> --%>
+<%-- 				<td><%= rs2.getString("individual") %></td> --%>
+<%-- 				<td><%= rs2.getString("grupal") %></td> --%>
+<%-- 				<td><%= rs2.getString("dupla") %></td> --%>
+<%-- 				<td><%= rs2.getString("telefonico") %></td> --%>
+<%-- 				<td><%= rs2.getString("otro") %></td> --%>
+<%-- 				<td><%= rs2.getString("evaluacion") %></td> --%>
+<%-- 				<td><%= rs2.getString("apoyo_escolar") %></td> --%>
+<%-- 				<td><%= rs2.getString("plan_accion") %></td> --%>
+<%-- 				<td><%= rs2.getString("observaciones_oficina") %></td> --%>
+			<%
+// 			} 
+// 				if(ok.equals("")){								
+ 				%> 
+<!-- 					<td></td> -->
+<!-- 					<td></td> -->
+<!-- 					<td></td> -->
+<!-- 					<td></td> -->
+<!-- 					<td></td> -->
+<!-- 					<td></td> -->
+<!-- 					<td></td> -->
+<!-- 					<td></td> -->
+<!-- 					<td></td> -->
+<!-- 					<td></td> -->
+<!-- 					<td></td> -->
+<!-- 					<td></td> -->
+<!-- 					<td></td> -->
+<!-- 					<td></td> -->
+<!-- 					<td></td> -->
+<!-- 					<td></td> -->
 					
-				<%} 
-					Conexion.cerrarCall(cl2);
-					Conexion.cerrarConexion(cn2);
+				<%
+// 				} 
+// 					Conexion.cerrarCall(cl2);
+// 					Conexion.cerrarConexion(cn2);
 					//EA
 					
 					Connection cn3 = null;
@@ -477,7 +498,7 @@ $(document).ready(function() {
 					
 					Conexion.cerrarCall(cl3);
 					Conexion.cerrarConexion(cn3);	
-					System.out.println("idrr id: "+idRr);
+// 					System.out.println("idrr id: "+idRr);
 						Connection cn4=Conexion.getConexion();
 						String call4="select * from persona,perfilrr where perfilrr.datos_personales=persona.id and perfilrr.id_perfilrr="+idRr;
 						CallableStatement cl4 = cn4.prepareCall(call4); 
@@ -491,18 +512,53 @@ $(document).ready(function() {
 						Conexion.cerrarConexion(cn4);	
 
 						
-// 						System.out.println("beca id: "+rs.getString("beca_id"));
 						Connection cn5=Conexion.getConexion();
-						String call5="select * from persona,beca, perfil_padrino where beca.id="+rs.getString("beca_id")+" and perfil_padrino.id=beca.padrino and perfil_padrino.datos_personales=persona.id";
+// 						String call5="select * from persona,beca, perfil_padrino where beca.id="+rs.getString("beca_id")+" and perfil_padrino.id=beca.padrino and perfil_padrino.datos_personales=persona.id";
+						String call5="select * from perfil_alumno_historial_beca where perfil_alumno="+rs.getString("perfil_alumno");
 						CallableStatement cl5 = cn5.prepareCall(call5); 
 					    ResultSet rs5 = cl5.executeQuery();
-					    while (rs5.next()) {
-					    	System.out.println(":::::: "+rs5.getString("apellido"));
-							%>
-								<td><%= rs5.getString("apellido") + " " +rs5.getString("nombre")  %></td>
-							<%}
+						Integer idBeca=0;
+					    while (rs5.next()) 
+					    {
+							if(Integer.parseInt(rs5.getString("historial_beca"))>idBeca)idBeca=Integer.parseInt(rs5.getString("historial_beca"));
+						}
 						Conexion.cerrarCall(cl5);
 						Conexion.cerrarConexion(cn5);
+					    
+						Connection cn6=Conexion.getConexion();
+						String call6="select nombre, apellido from persona, perfil_padrino, beca where persona.id=perfil_padrino.datos_personales and perfil_padrino.id=beca.padrino and beca.id="+idBeca;
+						
+						
+						
+						CallableStatement cl6 = cn6.prepareCall(call6); 
+					    ResultSet rs6 = cl6.executeQuery();
+					    String tiene="";
+					    while (rs6.next()) 
+					    {
+					    	tiene="si";
+						    	%>
+									<td><%= rs6.getString("apellido") + " " +rs6.getString("nombre")  %></td>
+								<%
+					    }	
+					    Conexion.cerrarCall(cl6);
+						Conexion.cerrarConexion(cn6);
+					    
+					    if(tiene.equals(""))
+					    {
+					    	Connection cn7=Conexion.getConexion();
+							String call7="select denominacion FROM empresa, perfil_padrino, beca where empresa.id=perfil_padrino.empresa AND beca.padrino=perfil_padrino.id and beca.id="+idBeca;
+							CallableStatement cl7 = cn7.prepareCall(call7); 
+						    ResultSet rs7 = cl7.executeQuery();
+						    while (rs7.next())
+						    {
+					    	%>
+							<td><%= "empresa: "+rs7.getString("denominacion") %></td>
+							<%
+					    	}
+						    Conexion.cerrarCall(cl7);
+							Conexion.cerrarConexion(cn7);
+					    }
+					    
 					
 					    
 					%>
